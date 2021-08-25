@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    tools:showIn ="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/corp1"
+            android:title="Нежениская улица 7"
+            android:icon="@drawable/ic_corp1"
+            />
+        <item
+            android:id="@+id/corp2"
+            android:title="Нахимовский проспект 21"
+            android:icon="@drawable/ic_corp2"
+            />
+        <item
+            android:id="@+id/list_inventory"
+            android:title="Список оборудования"
+            android:icon="@drawable/ic_devices"
+            />
+        <item
+            android:id="@+id/add_invent"
+            android:title="Добавить оборудование"
+            android:icon="@drawable/add_equipment"
+            />
+
+    </group>
+
+</menu>
